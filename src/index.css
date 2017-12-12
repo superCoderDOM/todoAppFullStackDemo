@@ -1,0 +1,175 @@
+/*===============
+  TAG SELECTORS
+===============*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Acme', sans-serif;
+}
+
+/*=================
+  CLASS SELECTORS
+=================*/
+
+.App {
+  text-align: center;
+}
+
+.board {
+  padding: 1em;
+}
+
+.btn-primary {
+  border-color: rgba(25, 64, 95, 1);
+}
+
+.done {
+  color: grey;
+}
+
+.input-group {
+  border-color: rgba(0, 5, 47, 1);
+  border-radius: 4px;
+}
+
+.input-group:hover {
+  -ms-transform: scale(1.01, 1.05); /* IE 9 */
+  -webkit-transform: rotate(1.01, 1.05); /* Chrome, Safari, Opera */
+  transform: scale(1.01, 1.05);
+}
+
+.list-group-item {
+  border-radius: 4px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.5em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+}
+
+.list-group-item:hover {
+  -ms-transform: scale(1.01, 1.05);
+  -webkit-transform: rotate(1.01, 1.05);
+  transform: scale(1.01, 1.05);
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item-details {
+  font-size: 0.8em;
+}
+
+.select-text {
+  font-weight: bolder;
+}
+
+.shadow {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.tileback {
+  /* background-image: url('./images/bluebluebkgrd.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: snow;
+}
+
+.title-block h1 {
+  text-align: center;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.totals-bar {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-bottom: 1em;
+  padding: 0.5em 0;
+}
+
+/*===============
+  COLOR CLASSES
+===============*/
+
+.blue {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.blue:hover {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+.green {
+  background-color: rgba(0, 128, 0, 0.1);
+}
+
+.green:hover {
+  background-color: rgba(0, 128, 0, 0.2);  
+}
+
+.orange {
+  background-color: rgba(255, 165, 0, 0.1);
+}
+
+.orange:hover {
+  background-color: rgba(255, 165, 0, 0.2);
+}
+
+.purple {
+  background-color: rgba(128, 0, 128, 0.1); 
+}
+
+.purple:hover {
+  background-color: rgba(128, 0, 128, 0.2);
+}
+
+.red {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.red:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.yellow {
+  background-color: rgba(255, 255, 0, 0.1);
+}
+
+.yellow:hover {
+  background-color: rgba(255, 255, 0, 0.2);
+}
